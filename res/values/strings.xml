@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shadow</string>
+	<string name="Play">Play</string>
+    <string name="StartListening">Start listening</string>
+    <string name="StopListening">Stop listening</string>
+</resources>
