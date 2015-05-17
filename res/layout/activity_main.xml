@@ -36,4 +36,50 @@
             android:textAppearance="?android:attr/textAppearanceSmallInverse" />
     </LinearLayout>
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/VoiceActivityLevel"
+        android:id="@+id/textViewVoiceActivityLevel"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBarVoiceActivityLevel"
+        android:max="2500"
+        android:progress="379"
+        android:labelFor="@id/textViewVoiceActivityLevel" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Time:"
+        android:id="@+id/textViewTime"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBarTime"
+        android:max="3000"
+        android:labelFor="@id/textViewTime"
+        android:progress="1789" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/SaveInfo"
+        android:id="@+id/textView" />
+
 </LinearLayout>

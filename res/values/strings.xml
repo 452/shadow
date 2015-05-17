@@ -4,4 +4,7 @@
 	<string name="Play">Play</string>
     <string name="StartListening">Start listening</string>
     <string name="StopListening">Stop listening</string>
+    <string name="VoiceActivityLevel">Voice Activity Level: </string>
+    <string name="Time">Time ms: </string>
+    <string name="SaveInfo">Audio Files will be saved into \"shadow\" folder</string>
 </resources>
